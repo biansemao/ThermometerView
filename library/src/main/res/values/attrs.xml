@@ -10,24 +10,24 @@
         <attr name="maxScaleLineColor" format="color|reference" /> <!-- 长刻度颜色 -->
         <attr name="midScaleLineColor" format="color|reference" /> <!-- 中等刻度颜色 -->
         <attr name="minScaleLineColor" format="color|reference" /> <!-- 短刻度颜色 -->
-        <attr name="scaleLineWidth" format="dimension" /> <!-- 刻度线宽 -->
-        <attr name="maxLineWidth" format="dimension" /> <!-- 长刻度长 -->
-        <attr name="midLineWidth" format="dimension" /> <!-- 中等刻度长 -->
-        <attr name="minLineWidth" format="dimension" /> <!-- 短刻度长 -->
-        <attr name="spaceScaleWidth" format="dimension" /> <!-- 刻度离温度计距离、刻度离文字距离 -->
+        <attr name="scaleLineWidth" format="float" /> <!-- 刻度线宽 -->
+        <attr name="maxLineWidth" format="float" /> <!-- 长刻度长 -->
+        <attr name="midLineWidth" format="float" /> <!-- 中等刻度长 -->
+        <attr name="minLineWidth" format="float" /> <!-- 短刻度长 -->
+        <attr name="spaceScaleWidth" format="float" /> <!-- 刻度离温度计距离、刻度离文字距离 -->
         <attr name="thermometerBg" format="color|reference" /> <!-- 温度计颜色 -->
         <attr name="thermometerShadowBg" format="color|reference" /> <!-- 温度计阴影颜色 -->
-        <attr name="maxThermometerRadius" format="dimension" /> <!-- 温度计底部半径 -->
-        <attr name="minThermometerRadius" format="dimension" /> <!-- 温度计顶部半径 -->
-        <attr name="maxMercuryRadius" format="dimension" /> <!-- 水银底部半径 -->
-        <attr name="minMercuryRadius" format="dimension" /> <!-- 水银顶部半径 -->
+        <attr name="maxThermometerRadius" format="float" /> <!-- 温度计底部半径 -->
+        <attr name="minThermometerRadius" format="float" /> <!-- 温度计顶部半径 -->
+        <attr name="maxMercuryRadius" format="float" /> <!-- 水银底部半径 -->
+        <attr name="minMercuryRadius" format="float" /> <!-- 水银顶部半径 -->
         <attr name="leftMercuryBg" format="color|reference" /> <!-- 左边水银背景颜色 -->
         <attr name="rightMercuryBg" format="color|reference" /> <!-- 右边水银背景颜色 -->
         <attr name="leftMercuryColor" format="color|reference" /> <!-- 左边水银颜色 -->
         <attr name="rightMercuryColor" format="color|reference" /> <!-- 右边水银颜色 -->
-        <attr name="maxScaleValue" format="dimension" /> <!-- 温度计最大值 -->
-        <attr name="minScaleValue" format="dimension" /> <!-- 温度计最小值 -->
-        <attr name="curScaleValue" format="dimension" /> <!-- 当前刻度值 -->
+        <attr name="maxScaleValue" format="float" /> <!-- 温度计最大值 -->
+        <attr name="minScaleValue" format="float" /> <!-- 温度计最小值 -->
+        <attr name="curScaleValue" format="float" /> <!-- 当前刻度值 -->
     </declare-styleable>
 
 </resources>
