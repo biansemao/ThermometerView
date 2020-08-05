@@ -158,8 +158,8 @@ public class ThermometerView extends View {
         rightMercuryBg = typedArray.getColor(R.styleable.ThermometerView_rightMercuryBg, Color.parseColor("#FDE1DE"));
         leftMercuryColor = typedArray.getColor(R.styleable.ThermometerView_leftMercuryColor, Color.parseColor("#FF8063"));
         rightMercuryColor = typedArray.getColor(R.styleable.ThermometerView_rightMercuryColor, Color.parseColor("#F66A5C"));
-        maxScaleValue = typedArray.getFloat(R.styleable.ThermometerView_maxScaleValue, 42f);
-        minScaleValue = typedArray.getFloat(R.styleable.ThermometerView_minScaleValue, 35f);
+        maxScaleValue = typedArray.getFloat(R.styleable.ThermometerView_maxScaleValue, 50f);
+        minScaleValue = typedArray.getFloat(R.styleable.ThermometerView_minScaleValue, -20f);
         curScaleValue = typedArray.getFloat(R.styleable.ThermometerView_curScaleValue, 35f);
         typedArray.recycle();
 
